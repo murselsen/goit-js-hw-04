@@ -9,7 +9,7 @@ const calcAverageCalories = days => {
     totalCalories += caloriesValue;
   });
 
-  console.log('Total Calories:', totalCalories);
+  // console.log('Total Calories:', totalCalories);
   if (days.length > 0) {
     return totalCalories / days.length;
   }

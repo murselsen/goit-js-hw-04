@@ -10,7 +10,7 @@ const isEnoughCapacity = (products, containerSize) => {
   });
 
   // Toplam Ürün Sayısı
-  console.log('Total Product Size:', totalProductSize);
+  // console.log('Total Product Size:', totalProductSize);
 
   // Konteyner içerisindeki toplam ürün boyutu ile karşılaştırma yaparak yeterli kapasite olup olmadığını kontrol ed
   if (totalProductSize <= containerSize) {
