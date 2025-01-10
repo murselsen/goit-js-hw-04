@@ -3,23 +3,14 @@ console.log('~~~~~~~~~ Task 3: ~~~~~~~~~');
 const profile = {
   username: 'Jacob',
   playTime: 300,
-  getInfo: () => {
-    // this doesn't work
-    // return `${this.username} has ${this.playTime} active hours!`;
-
-    return `${profile.username} has ${profile.playTime} active hours!`;
+  getInfo: function() {
+    return `${this.username} has ${this.playTime} active hours!`;
   },
-  changeUsername: name => {
-    // this doesn't work
+  changeUsername: function(name) {
     this.username = name;
-
-    profile.username = name;
   },
-  updatePlayTime: time => {
-    // this doesn't work
+  updatePlayTime: function(time) {
     this.playTime += time;
-
-    profile.playTime += time;
   },
 };
 
