@@ -1,3 +1,5 @@
+console.log('~~~~~~~~~ Task 1: ~~~~~~~~~');
+
 const isEnoughCapacity = (products, containerSize) => {
   // Toplam ürün boyutunu tutacak değişkeni tanımlar ve sıfırlar
   let totalProductSize = 0;
@@ -7,7 +9,7 @@ const isEnoughCapacity = (products, containerSize) => {
     totalProductSize += product;
   });
 
-  // Toplam Ürün Sayısı 
+  // Toplam Ürün Sayısı
   console.log('Total Product Size:', totalProductSize);
 
   // Konteyner içerisindeki toplam ürün boyutu ile karşılaştırma yaparak yeterli kapasite olup olmadığını kontrol ed
